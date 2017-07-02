@@ -1,0 +1,138 @@
+.col-xs-12.article-selection {
+    padding: 20px 0;
+}
+
+.col-xs-12.article-selection .btn {
+    margin: 0 0;
+}
+
+.products .item {
+    padding: 10px
+}
+
+.products .img-thumbnail {
+    width: 100%;
+    height: 150px;
+}
+.products h4{
+    font-size: 14px;
+}
+
+.author {
+    color: #e30101;
+    padding: 0;
+    margin: 3px 0
+}
+
+.article-pagination {
+    text-align: right
+}
+
+@media (max-width: 767px) {
+    .row.tags {
+        margin: 0
+    }
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.pull-right {
+    float: right
+}
+
+.fa-tag:before {
+    content: "\f02b"
+}
+.product_view .modal-body{
+    padding-top: 0;
+}
+
+.search-form {
+    margin: 20px 0;
+    font: 400 12px sans-serif;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, .08)
+}
+
+.search-form div.input-group-addon {
+    background: #fff;
+    color: #80A3BD;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    border: 1px solid #b6c3cd;
+    border-right: 0
+}
+
+.search-form .input-group input {
+    background-color: #fff;
+    box-shadow: none;
+    color: #4E565C;
+    outline: 0;
+    border: 1px solid #b6c3cd;
+    border-right: 0;
+    border-left: 0
+}
+
+.search-form div.input-group-btn button {
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    background: #6caee0;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, .08);
+    color: #fff;
+    border-color: #6caee0;
+    outline: 0;
+    opacity: .9
+}
+
+.search-form div.input-group-btn button:hover {
+    opacity: 1
+}
+
+.search-form div.input-group-btn button:focus:active {
+    background-color: #6caee0;
+    color: #fff;
+    outline: 0
+}
+
+.list-tags li a {
+    float: left;
+    background: #F5F5F5;
+    border: 1px solid #D5D5D5;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    line-height: 23px;
+    font-size: 10px;
+    margin: 0 5px 5px 0;
+    padding: 0 8px;
+    color: #656d78
+}
+
+.list-tags {
+    width: 100%;
+    list-style: none
+}
+
+.tags label {
+    float: left
+}
+
+.price.text-right {
+    color: #ff0404;
+    font-size: 18px
+}
+.content {display:none;}
+.preload {
+    width:50px;
+    height: 50px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
